@@ -10,9 +10,8 @@
   :root{--red:#E82127;--dark:#171A20;}
   body{font-family:'Inter',sans-serif;background:var(--dark);display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:2em;}
   .tbar{width:100%;max-width:520px;height:3px;background:var(--red);border-radius:2px;margin-bottom:32px;}
-  .t-logo{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
-  .t-logo svg{width:28px;height:28px;}
-  .t-logo span{font-size:22px;font-weight:700;letter-spacing:.06em;color:var(--red);}
+  .app-label{font-size:13px;font-weight:600;color:#666;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;}
+  .disclaimer{font-size:10px;color:#555;margin-top:28px;text-align:center;max-width:460px;line-height:1.6;}
   h1{font-size:24px;font-weight:700;color:#fff;margin-bottom:4px;letter-spacing:-.02em;}
   .sub{font-size:12px;color:#888;margin-bottom:36px;letter-spacing:.02em;}
   .cards{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;max-width:520px;}
@@ -26,12 +25,7 @@
 </head>
 <body>
   <div class="tbar"></div>
-  <div class="t-logo">
-    <svg viewBox="0 0 342 35" fill="#E82127" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 .1C40.7 5.6 82 7.5 122.8 7.5V35l19.6-35c40.9 0 82.2-1.9 122.8-7.4L256 7H86L0 .1zM171 24.3L155.2 0h31.7L171 24.3z"/>
-    </svg>
-    <span>TESLA</span>
-  </div>
+  <div class="app-label">Job Application Materials</div>
   <h1>Kelvin Tran</h1>
   <div class="sub">Founder &nbsp;&middot;&nbsp; AI Engineer &nbsp;&middot;&nbsp; Stanford MBA &nbsp;&middot;&nbsp; Robotics &amp; AI</div>
   <div class="cards">
@@ -48,5 +42,6 @@
       <div class="arrow">View Cover Letter →</div>
     </a>
   </div>
+  <div class="disclaimer">Personal job application materials created by Kelvin Tran. Not affiliated with or endorsed by Tesla, Inc.</div>
 </body>
 </html>

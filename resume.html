@@ -33,9 +33,8 @@
   .header-right { text-align: right; font-size: 11px; color: var(--text2); line-height: 1.8; }
   .header-right a { color: var(--red); text-decoration: none; }
 
-  /* Tesla wordmark */
-  .t-logo { font-size: 26px; font-weight: 700; letter-spacing: -.02em; color: var(--dark); margin-bottom: 22px; display: flex; align-items: center; gap: 8px; }
-  .t-logo svg { width: 22px; height: 22px; }
+  .app-label { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--text3); margin-bottom: 22px; }
+  .disclaimer { font-size: 9px; color: var(--text3); margin-top: 18px; text-align: center; }
 
   /* Stats bar */
   .stats { display: flex; gap: 0; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 22px; }
@@ -112,13 +111,7 @@
     </div>
   </div>
 
-  <!-- Tesla logo -->
-  <div class="t-logo">
-    <svg viewBox="0 0 342 35" fill="#E82127" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 .1C40.7 5.6 82 7.5 122.8 7.5V35l19.6-35c40.9 0 82.2-1.9 122.8-7.4L256 7H86L0 .1zM171 24.3L155.2 0h31.7L171 24.3z"/>
-    </svg>
-    <span style="color:var(--red);letter-spacing:.04em;">TESLA</span>
-  </div>
+  <div class="app-label">Application for Tesla</div>
 
   <!-- Stats bar -->
   <div class="stats">
@@ -193,11 +186,11 @@
     <div class="exp">
       <div class="exp-header">
         <span class="exp-company">Accompanian</span>
-        <span class="exp-dates">2015 – 2017</span>
+        <span class="exp-dates">2023 – 2024</span>
       </div>
-      <div class="exp-role">Co-Founder &amp; CTO &nbsp;·&nbsp; <em style="color:var(--red);font-style:normal;font-weight:600;">Acquired 2017</em></div>
+      <div class="exp-role">Co-Founder &nbsp;·&nbsp; <em style="color:var(--red);font-style:normal;font-weight:600;">Acquired</em></div>
       <ul class="bullets">
-        <li>Built and scaled iOS social platform from zero to acquisition. Drove 400%+ engagement growth pre-exit.</li>
+        <li>Built and scaled mobile platform from zero to <strong>4,000+ active users</strong>. Drove 400%+ engagement growth pre-exit.</li>
       </ul>
     </div>
   </div>
@@ -250,6 +243,7 @@
     </div>
   </div>
 
+  <div class="disclaimer">Personal job application materials created by Kelvin Tran. Not affiliated with or endorsed by Tesla, Inc.</div>
 </div><!-- /page -->
 
 <button class="print-btn" onclick="window.print()">
