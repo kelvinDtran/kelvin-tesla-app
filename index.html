@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelvin Tran — Tesla Application</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--red:#E82127;--dark:#171A20;}
+  body{font-family:'Inter',sans-serif;background:var(--dark);display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:2em;}
+  .tbar{width:100%;max-width:520px;height:3px;background:var(--red);border-radius:2px;margin-bottom:32px;}
+  .t-logo{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .t-logo svg{width:28px;height:28px;}
+  .t-logo span{font-size:22px;font-weight:700;letter-spacing:.06em;color:var(--red);}
+  h1{font-size:24px;font-weight:700;color:#fff;margin-bottom:4px;letter-spacing:-.02em;}
+  .sub{font-size:12px;color:#888;margin-bottom:36px;letter-spacing:.02em;}
+  .cards{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;max-width:520px;}
+  .card{display:flex;flex-direction:column;gap:8px;padding:24px 28px;background:#1E2029;border:1px solid #2A2D38;border-radius:10px;text-decoration:none;color:#fff;width:230px;transition:border-color .2s,transform .2s;}
+  .card:hover{border-color:var(--red);transform:translateY(-2px);}
+  .card .icon{font-size:22px;}
+  .card h3{font-size:14px;font-weight:700;color:#fff;}
+  .card p{font-size:11.5px;color:#888;line-height:1.5;}
+  .card .arrow{font-size:12px;color:var(--red);font-weight:600;margin-top:4px;}
+</style>
+</head>
+<body>
+  <div class="tbar"></div>
+  <div class="t-logo">
+    <svg viewBox="0 0 342 35" fill="#E82127" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 .1C40.7 5.6 82 7.5 122.8 7.5V35l19.6-35c40.9 0 82.2-1.9 122.8-7.4L256 7H86L0 .1zM171 24.3L155.2 0h31.7L171 24.3z"/>
+    </svg>
+    <span>TESLA</span>
+  </div>
+  <h1>Kelvin Tran</h1>
+  <div class="sub">Founder &nbsp;&middot;&nbsp; AI Engineer &nbsp;&middot;&nbsp; Stanford MBA &nbsp;&middot;&nbsp; Robotics &amp; AI</div>
+  <div class="cards">
+    <a href="resume.html" class="card">
+      <div class="icon">📄</div>
+      <h3>Resume</h3>
+      <p>1-page Tesla-tailored resume. Printable as PDF. Robotics, AI systems, and production engineering.</p>
+      <div class="arrow">View Resume →</div>
+    </a>
+    <a href="cover.html" class="card">
+      <div class="icon">✉️</div>
+      <h3>Cover Letter</h3>
+      <p>Personal cover letter tailored to Tesla's mission, engineering culture, and first principles.</p>
+      <div class="arrow">View Cover Letter →</div>
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelvin Tran — Cover Letter for Tesla</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red: #E82127;
+    --dark: #171A20;
+    --text: #111;
+    --text2: #444;
+    --text3: #777;
+    --border: #DADADA;
+    --bg2: #F5F5F5;
+  }
+
+  html, body { background: #fff; color: var(--text); font-family: 'Inter', sans-serif; }
+
+  .page { max-width: 720px; margin: 0 auto; padding: 36px 48px 52px; }
+
+  .tbar { height: 4px; background: var(--red); margin-bottom: 28px; border-radius: 2px; }
+
+  .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 28px; }
+  .header-left h1 { font-size: 22px; font-weight: 700; letter-spacing: -.02em; color: var(--dark); }
+  .header-left .sub { font-size: 11px; color: var(--red); font-weight: 700; margin-top: 4px; letter-spacing: .06em; text-transform: uppercase; }
+  .header-right { text-align: right; font-size: 11px; color: var(--text2); line-height: 1.8; }
+  .header-right a { color: var(--red); text-decoration: none; }
+
+  .t-logo {
+    font-size: 24px; font-weight: 700; letter-spacing: .04em;
+    color: var(--red); margin-bottom: 26px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .t-logo svg { width: 20px; height: 20px; }
+
+  .date { font-size: 11px; color: var(--text3); margin-bottom: 18px; }
+  .salutation { font-size: 14px; font-weight: 600; margin-bottom: 16px; color: var(--text); }
+
+  p { font-size: 13.5px; line-height: 1.78; color: var(--text2); margin-bottom: 16px; }
+  p strong { color: var(--text); font-weight: 600; }
+
+  .highlight {
+    background: var(--bg2); border-left: 3px solid var(--red);
+    padding: 10px 16px; border-radius: 0 6px 6px 0;
+    margin: 18px 0; font-size: 12.5px; color: var(--text2); line-height: 1.65;
+  }
+  .highlight strong { color: var(--text); }
+
+  .closing { margin-top: 26px; font-size: 13.5px; color: var(--text2); }
+  .closing strong { display: block; color: var(--text); font-size: 15px; font-weight: 700; margin-top: 12px; }
+  .closing .role { font-size: 11.5px; color: var(--red); font-weight: 600; margin-top: 2px; }
+  .closing .contact { font-size: 11px; color: var(--text3); margin-top: 4px; }
+
+  .divider { height: 1px; background: var(--border); margin: 26px 0; }
+
+  .t-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 28px; }
+  .t-footer .tagline { font-size: 10.5px; color: var(--text3); }
+  .t-footer svg { width: 40px; opacity: .5; }
+
+  .print-btn {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--red); color: #fff;
+    border: none; padding: 10px 20px; border-radius: 24px;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+    box-shadow: 0 2px 8px rgba(232,33,39,.4);
+    font-family: inherit; display: flex; align-items: center; gap: 6px;
+  }
+
+  @media print {
+    .print-btn { display: none; }
+    .page { padding: 20px 32px; }
+  }
+  @page { margin: 0.6in; size: letter; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="tbar"></div>
+
+  <div class="header">
+    <div class="header-left">
+      <h1>Kelvin Tran</h1>
+      <div class="sub">Founder &nbsp;·&nbsp; AI Engineer &nbsp;·&nbsp; Stanford MBA</div>
+    </div>
+    <div class="header-right">
+      kelvintran1000@gmail.com<br>
+      602.515.8697<br>
+      <a href="https://linkedin.com/in/kelvintran888">linkedin.com/in/kelvintran888</a>
+    </div>
+  </div>
+
+  <div class="t-logo">
+    <svg viewBox="0 0 342 35" fill="#E82127" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 .1C40.7 5.6 82 7.5 122.8 7.5V35l19.6-35c40.9 0 82.2-1.9 122.8-7.4L256 7H86L0 .1zM171 24.3L155.2 0h31.7L171 24.3z"/>
+    </svg>
+    <span>TESLA</span>
+  </div>
+
+  <div class="date">April 2026</div>
+  <div class="salutation">Dear Tesla Recruiting Team,</div>
+
+  <p>
+    My graduate research was in <strong>robotics and autonomous systems</strong>. I spent years studying how machines perceive, decide, and act in the physical world. And the whole time, I kept thinking about one company that was actually doing it at scale — building systems so ambitious that most engineers would call them impossible. That's why I'm writing.
+  </p>
+
+  <p>
+    Most recently I co-founded <strong>Solisa AI</strong>, an enterprise AI platform I took from a blank page to <strong>$2.4M ARR</strong>, raised <strong>$3.3M</strong>, and sold in January 2026. I personally closed 90%+ of the revenue. But what I'm proudest of is the engineering: <strong>RAG pipelines, LLM orchestration, and production infrastructure</strong> running 24/7 inside some of the largest insurance companies in the US — United Healthcare, Farmers, BCBS, Northwestern Mutual — environments with the kind of reliability and compliance requirements that force you to build things right.
+  </p>
+
+  <div class="highlight">
+    At <strong>Renesas Electronics</strong>, I built the <strong>Lessons Learned Platform</strong> — a predictive analytics system that processed semiconductor fabrication data to identify failure patterns before they reached the production line. It's the same class of problem Tesla's manufacturing team faces at Gigafactory scale: find the signal in the noise before a defect ships. I also architected <strong>Florence AI</strong>, a RAG-based knowledge platform on GCP that delivered <strong>$50M+ in annual operational savings</strong> for hundreds of engineers globally.
+  </div>
+
+  <p>
+    The <strong>M.S. in Robotics and Autonomous Systems</strong> from ASU gave me the foundation: ROS, sensor fusion, motion planning, control systems, and the mathematics underneath autonomous behavior. The <strong>Stanford MBA</strong> taught me how to operate — roadmaps, stakeholders, resource constraints, and shipping. Both feel relevant here. Tesla doesn't need engineers who just write code. It needs people who understand the full system — software, hardware, the factory floor, and the customer — and can move fast without breaking things.
+  </p>
+
+  <p>
+    I write production <strong>Python and C++</strong>, design distributed systems, and think deeply about scale and reliability. I've shipped products end-to-end, managed cross-functional teams across time zones, and closed $500K+ enterprise deals — sometimes in the same week. I'm bilingual in English and Vietnamese, based in Arizona, and genuinely open to relocating to Fremont, Austin, or wherever the work is.
+  </p>
+
+  <p>
+    Tesla's mission — accelerating the world's transition to sustainable energy — is not a tagline I read once. It's the reason I applied. I want to work on problems that matter at a scale where the engineering constraints are real, the stakes are high, and the team around you is the best in the world.
+  </p>
+
+  <div class="divider"></div>
+
+  <div class="closing">
+    Thank you for your time. I'd be glad to talk.
+    <strong>Kelvin Tran</strong>
+    <div class="role">Founder, AI Engineer &amp; Robotics Graduate</div>
+    <div class="contact">kelvintran1000@gmail.com &nbsp;&bull;&nbsp; 602.515.8697 &nbsp;&bull;&nbsp; <a href="https://linkedin.com/in/kelvintran888" style="color:var(--red);text-decoration:none;">LinkedIn</a></div>
+  </div>
+
+  <div class="t-footer">
+    <div class="tagline">kelvindtran.github.io/kelvin-tesla-app</div>
+    <svg viewBox="0 0 342 35" fill="#E82127" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 .1C40.7 5.6 82 7.5 122.8 7.5V35l19.6-35c40.9 0 82.2-1.9 122.8-7.4L256 7H86L0 .1zM171 24.3L155.2 0h31.7L171 24.3z"/>
+    </svg>
+  </div>
+</div>
+
+<button class="print-btn" onclick="window.print()">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+  Save as PDF
+</button>
+
+</body>
+</html>
